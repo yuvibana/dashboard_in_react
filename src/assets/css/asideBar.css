@@ -1,0 +1,63 @@
+.AppAsideBar {
+    flex: 0 0 18%;
+    background: var(--black);
+    position: relative;
+    height: 100%;
+}
+
+.logo,
+.dLink {
+    display: block;
+    padding: 10px;
+    color: var(--white);
+}
+
+.logo,
+.logo .MuiSvgIcon-root {
+    font-size: var(--font25);
+}
+
+.dLink {
+    background: var(--black1);
+    border-radius: var(--rounded2);
+    margin: 25px 0;
+}
+
+.navflex {
+    height: 75%;
+}
+
+.AppMenus {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    padding: 15px;
+    background: var(--black);
+    width: 18%;
+}
+
+.accdiv.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    background: transparent;
+    box-shadow: unset;
+    color: var(--white);
+    background: var(--black1);
+}
+
+.accdiv .css-i4bv87-MuiSvgIcon-root,
+.accdiv .linkTags {
+    color: var(--white);
+}
+
+.accdiv .Mui-expanded,
+.accdiv:hover {
+    background: var(--black);
+    border-radius: var(--raunded);
+}
+
+.avtarflex {
+    background: var(--black1);
+    padding: 10px 15px;
+    border-radius: var(--rounded1);
+    color: var(--white);
+}
