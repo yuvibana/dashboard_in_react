@@ -87,6 +87,9 @@ body {
 .itemstart {
     align-items: flex-start;
 }
+.itemsend {
+    align-items: flex-end;
+}
 
 .dblock {
     display: block;
@@ -114,5 +117,62 @@ body {
 
 .dahboardWrapper {
     width: calc(100% - 40px);
-    margin:0 20px;
+    margin: 0 20px;
+}
+
+.bggreen {
+    background: #00ce66b8;
+}
+
+.bggray {
+    background: #9f9e9fbd;
+}
+
+.bgblue {
+    background: #5484d9;
+}
+
+.bgred {
+    background: var(--pink);
+}
+
+.textred {
+    color: #e45252;
+}
+
+.textgreen {
+    color: #24d7e2;
+}
+
+/* dropdown css */
+
+.dropdown {
+    z-index: 9;
+    width: 200px;
+    position: relative;
+}
+
+.dropdown .dropdown-btn {
+    cursor: pointer;
+    background: var(--black1);
+    padding: 10px;
+    border: 1px solid var(--white);
+    border-radius: var(--rounded);
+}
+
+.dropdown-content {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.07);
+    background: var(--black1);
+}
+
+.dropdown-content .item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content .item:hover {
+    background: var(--black);
 }

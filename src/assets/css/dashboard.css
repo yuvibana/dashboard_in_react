@@ -1,0 +1,130 @@
+.DashboardRightBar {
+    flex: 0 0 80%;
+}
+
+.Header {
+    padding: 30px 0;
+}
+
+.Header .Name,
+.columnChartdiv .title,
+.CustumerChart .title {
+    font-size: var(--font25);
+    color: var(--white);
+}
+
+.Header .inputbox {
+    flex: 0 0 30%;
+}
+
+.inputbox input {
+    width: 81%;
+    padding: 15px 15px 15px 40px;
+    outline: 0;
+    border: 0;
+    border-radius: var(--rounded);
+    background: var(--white) url(../images/search.svg) no-repeat 10px center;
+}
+
+.inputbox input:focus {
+    border: 0;
+    outline: 0;
+}
+
+.CommonBoxFlexdiv {
+    margin-bottom: 45px;
+}
+
+.CommonBox {
+    color: var(--white);
+    padding: 20px 15px;
+    background-color: #ffffff3b;
+    border-radius: var(--rounded);
+    flex: 0 0 23%;
+}
+
+.CommonBox .leftImgBox {
+    height: 85px;
+    width: 85px;
+    border-radius: 50px;
+}
+
+.CommonBox .leftImgBox svg {
+    font-size: 35px;
+}
+
+.CommonBox .currency {
+    font-size: var(--font25);
+}
+
+.flextext {
+    gap: 0 5px;
+}
+
+
+.columnChartdiv .flexdiv {
+    margin-bottom: 25px;
+    color: var(--white);
+}
+
+
+.columnChartdiv {
+    flex: 0 0 69%;
+    max-width: 69%;
+}
+
+.CustumerChart {
+    flex: 0 0 29%;
+    max-width: 29%;
+}
+
+/* .OverviewChar  */
+.OverviewChar {
+    margin-bottom: 50px;
+    columns: var(--white);
+}
+
+.CustumerChart {
+    color: var(--white);
+}
+
+.CustumerChart .text {
+    margin-bottom: 25px;
+}
+
+.humbergermenu {
+    display: none;
+    color: var(--white);
+}
+
+.humbergermenu svg {
+    font-size: 49px;
+}
+
+@media screen and (max-width:576px) {
+    .humbergermenu {
+        display: block;
+    }
+
+    .DashboardRightBar {
+        flex: 0 0 100%;
+    }
+
+    .CommonBoxFlexdiv,
+    .OverviewChar,
+    .Header {
+        flex-wrap: wrap;
+        gap: 20px 0;
+    }
+
+    .CommonBox,
+    .Header .inputbox {
+        flex: 0 0 100%;
+    }
+
+    .columnChartdiv,
+    .CustumerChart {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

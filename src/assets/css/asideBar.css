@@ -1,5 +1,5 @@
 .AppAsideBar {
-    flex: 0 0 18%;
+    flex: 0 0 20%;
     background: var(--black);
     position: relative;
     height: 100%;
@@ -60,4 +60,24 @@
     padding: 10px 15px;
     border-radius: var(--rounded1);
     color: var(--white);
+}
+
+@media screen and (max-width:576px) {
+    .AppAsideBar {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        position: fixed;
+        left: -100%;
+        transition: var(--transition);
+    }
+
+    .AppAsideBar.active {
+        left: 0;
+    }
+
+    .AppMenus {
+        position: unset;
+        width: 100%;
+    }
 }

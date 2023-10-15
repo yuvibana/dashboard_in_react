@@ -1,11 +1,12 @@
 import React from 'react'
 import AsideBar from './dashboard/AsideBar'
+import DashboardRightBar from './dashboard/DashboardRightBar'
 
 export default function Home() {
   return (
-    <div className='dahboardWrapper dflex jbetween'>
+    <div className='dahboardWrapper dflex '>
       <AsideBar />
-      <div>hello</div>
+      <DashboardRightBar />
     </div>
   )
 }
