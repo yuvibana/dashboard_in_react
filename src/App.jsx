@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Outlet } from 'react-router-dom'
 import Home from './components/Home'
 
 function App() {
@@ -8,11 +8,10 @@ function App() {
   return (
     <>
 
-    <h1>hello</h1>
-      
-      <Routes>
+      <Outlet />
+      {/* <Routes>
         <Route path='/' element={<Home />} />
-      </Routes>
+      </Routes> */}
     </>
   )
 }
