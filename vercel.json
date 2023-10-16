@@ -3,8 +3,7 @@
   "cleanUrls": true,
   "routes": [
     {
-      "src": "/{^.}+",
-      "dist": "/"
+      "src": "/{^.}+"
     }
   ]
 }
