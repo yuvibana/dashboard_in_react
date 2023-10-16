@@ -1,0 +1,10 @@
+{
+  "buildCommand": "next build",
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/{^.}+",
+      "dist": "/"
+    }
+  ]
+}
