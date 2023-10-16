@@ -7,7 +7,7 @@ import Home from './components/Home.jsx'
 const router = createBrowserRouter([
   {
     path: "/testfitpeo/",
-    element: <Home />,
+    element: <App />,
     children: [
       {
         path: "/testfitpeo/Home",
