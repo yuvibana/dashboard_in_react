@@ -8,12 +8,8 @@ let CanvasJSChart = CanvasJSReact.CanvasJSChart;
 export default function OverviewChart() {
 
     const options = {
-        // title: {
-        //     text: "Basic Column Chart"
-        // },
         data: [
             {
-                // Change type to "doughnut", "line", "splineArea", etc.
                 type: "column",
                 dataPoints: [
                     { label: "Jan", y: 25 },

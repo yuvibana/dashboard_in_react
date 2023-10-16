@@ -13,10 +13,13 @@ import {
 import ChartWrapper from './ChartWrapper';
 
 
-export default function DashboardRightBar() {
+export default function DashboardRightBar({ toggelmenu }) {
+
     return (
         <div className='DashboardRightBar'>
-            <Header />
+            <Header
+                toggelmenu={toggelmenu}
+            />
             <Box className="CommonBoxFlexdiv dflex jbetween">
                 <CommonBox
                     bgColor="bgpinkgradient"

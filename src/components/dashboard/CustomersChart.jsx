@@ -1,8 +1,6 @@
 import React from 'react'
 import CanvasJSReact from '@canvasjs/react-charts';
 
-
-// var CanvasJS = CanvasJSReact.CanvasJS;
 let CustomersChart = CanvasJSReact.CanvasJSChart;
 
 export default function CustumerChart() {
@@ -13,7 +11,7 @@ export default function CustumerChart() {
         type: "doughnut",
         dataPoints: [
           { label: "Jan", y: 25 },
-          { label: "Feb", y: 20 },
+          { label: "Feb", y: 15 },
           { label: "Mar", y: 25 },
         ]
       }

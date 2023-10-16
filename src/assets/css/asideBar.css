@@ -62,7 +62,26 @@
     color: var(--white);
 }
 
+.closediv {
+    display: none;
+
+}
+
+.closediv svg {
+    font-size: 45px;
+    color: var(--white);
+}
+
+.closeICon {
+    color: var(--white);
+    display: none;
+}
+
 @media screen and (max-width:576px) {
+    .closediv {
+        display: block;
+    }
+
     .AppAsideBar {
         flex: 0 0 100%;
         max-width: 100%;

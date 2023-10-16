@@ -13,11 +13,11 @@
     color: var(--white);
 }
 
-.Header .inputbox {
+.Header .searchBox {
     flex: 0 0 30%;
 }
 
-.inputbox input {
+.searchBox input {
     width: 81%;
     padding: 15px 15px 15px 40px;
     outline: 0;
@@ -26,7 +26,7 @@
     background: var(--white) url(../images/search.svg) no-repeat 10px center;
 }
 
-.inputbox input:focus {
+.searchBox input:focus {
     border: 0;
     outline: 0;
 }
@@ -101,6 +101,8 @@
     font-size: 49px;
 }
 
+@media screen and (max-width:1200px) {}
+
 @media screen and (max-width:576px) {
     .humbergermenu {
         display: block;
@@ -118,7 +120,7 @@
     }
 
     .CommonBox,
-    .Header .inputbox {
+    .Header .searchBox {
         flex: 0 0 100%;
     }
 

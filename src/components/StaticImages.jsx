@@ -13,6 +13,7 @@ import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard'; 4
 import AddAlarmIcon from '@mui/icons-material/AddAlarm';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 export {
     img1,
@@ -29,6 +30,7 @@ export {
     BookmarkBorderIcon,
     CardGiftcardIcon,
     AddAlarmIcon,
-    MenuIcon
+    MenuIcon,
+    CloseIcon
 
 }

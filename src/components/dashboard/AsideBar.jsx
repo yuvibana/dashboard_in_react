@@ -14,15 +14,22 @@ import {
     GroupAddSharpIcon,
     AttachMoneySharpIcon,
     GradingSharpIcon,
-    SupportIcon
+    SupportIcon,
+    CloseIcon
 } from '../StaticImages';
 
 
-export default function AsideBar() {
+export default function AsideBar({ isOpen, closeMenu }) {
+
     return (
-        <aside className='AppAsideBar'>
+        <aside className={`AppAsideBar ${isOpen ? "active" : ""}`}>
             <nav className='AppMenus'>
-                <Link to={'/'} className='logo dflex Itemcenter gapx'> <CameraSharpIcon /> {" "}Dashboard</Link>
+                <div className='dflex jbetween Itemcenter'>
+                    <Link to={'/'} className='logo dflex Itemcenter gapx'> <CameraSharpIcon /> {" "}Dashboard</Link>
+                    <div className='closediv' onClick={closeMenu}>
+                    <CloseIcon className='closeICon' />
+                    </div>
+                </div>
                 <Link to={'/'} className='dLink dflex Itemcenter gapx'><CategorySharpIcon /> Dashboard</Link>
 
                 <div className="navflex dflex flexdcol jbetween">
