@@ -6,7 +6,6 @@ function App() {
 
   return (
     <>
-
       <Outlet />
       {/* <Routes>
         <Route path='/' element={<Home />} />
