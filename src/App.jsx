@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import { Routes, Route, Outlet } from 'react-router-dom'
-import Home from './components/Home'
 
 function App() {
 
@@ -9,9 +8,9 @@ function App() {
     <>
 
       <Outlet />
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Home />} />
-      </Routes>
+      </Routes> */}
     </>
   )
 }
