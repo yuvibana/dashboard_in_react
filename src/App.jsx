@@ -8,15 +8,9 @@ function App() {
   return (
     <>
       <Outlet />
-
-<<<<<<< HEAD
-      {/* <Routes>
-=======
-      <Outlet />
       <Routes>
->>>>>>> b11b5934d97093473a82254edab45e8bbf30dea5
         <Route path='/' element={<Home />} />
-      </Routes> */}
+      </Routes> 
     </>
   )
 }
